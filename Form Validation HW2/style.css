@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(28, 5, 39);
+    font-family:'Open Sans', sans-serif;
+    font-size: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form{
+    background: rgb(246, 246, 246);
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    width: 500px;
+    height: 450px;
+}
+
+#h2{
+    background-color: rgb(28, 5, 39);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+#h21{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+label{
+    text-align:justify;
+    margin: 0 0 20px;
+    color: rgb(28, 5, 39);;
+    font-size: 27px;
+    margin-left: 20px;
+    font-style: oblique;
+}
+
+
+input{
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    height: 38px;
+    -webkit-text-fill-color: rgb(52, 12, 65);
+}
+
+#name1{
+    margin-left: 20px;
+    color: red;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#name2{
+    margin-left: 20px;
+    color: rgb(6, 173, 6);
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#pass1{
+    margin-left: 20px;
+    color: red;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#pass2{
+    margin-left: 20px;
+    color: red;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#pass3{
+    margin-left: 20px;
+    color: rgb(6, 173, 6);
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#checkbox1{
+    margin: 0px;
+    border-radius: 10px;
+}
+
+form button{
+    background: rgb(28, 5, 39);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(65, 9, 92);
+    padding: 10px 40px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 10px;
+}
+
+
+
+
+
+
+
+
+
+

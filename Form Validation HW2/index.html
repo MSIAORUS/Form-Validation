@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="form1">
+        <div id="h2"><h2 id="h21">Join with us</h2></div>
+        <label for="name">Name: </label>
+        <input type="text" id="name" onfocusout="nameFunc()">
+        <p id="name1"></p>
+        <p id="name2"></p>
+        <label for="password">Password: </label>
+        <input type="password" id="password" onfocusout="passFunc()">
+        <span><input type="checkbox" id="checkbox1" onclick="showPass()"></span>
+        <p id="pass1"></p>
+        <p id="pass2"></p>
+        <p id="pass3"></p>
+        
+        <button type="submit" id="submit1" onclick="submitFunc()">Submit</button>
+        <p id="submit11"></p>
+        <p id="submit12"></p>
+    </form>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
